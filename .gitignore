@@ -1,0 +1,41 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Results: keep folder structure, ignore large outputs
+results/encoder/*.csv
+results/encoder/*.json
+results/encoder/*.png
+results/encoder/*.pdf
+results/llm/*.csv
+results/llm/*.json
+results/llm/*.png
+results/llm/*.pdf
+!results/encoder/.gitkeep
+!results/llm/.gitkeep
+
+# Model cache (HuggingFace downloads locally)
+.cache/
+models/

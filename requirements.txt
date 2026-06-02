@@ -1,0 +1,35 @@
+# Versions pinned to match the original prototype repository
+# (Masterthesis_Team3_contract_checker) to guarantee bit-level reproducibility
+# of the encoder embeddings during re-evaluation in Chapter 6.
+
+# Core data
+pandas==2.3.1
+numpy==1.23.5
+openpyxl==3.1.5
+
+# Encoder pipeline (original prototype stack)
+torch==2.7.1
+torchvision==0.22.1
+sentence-transformers==2.2.2
+transformers==4.30.0
+tokenizers==0.13.3
+huggingface-hub==0.14.1
+safetensors==0.5.3
+
+# LLM pipeline
+openai==1.95.1
+python-dotenv==1.1.1
+
+# Metrics and statistics
+scikit-learn==1.7.0
+scipy==1.13.1
+
+# Visualisation
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# Jupyter kernel for VS Code (VS Code provides the notebook UI itself)
+ipykernel==6.29.5
+
+# Progress bars
+tqdm==4.67.1
