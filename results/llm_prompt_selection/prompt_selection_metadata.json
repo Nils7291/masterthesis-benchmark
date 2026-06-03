@@ -1,0 +1,44 @@
+{
+  "model": "gpt-5.5-2026-04-23",
+  "seed": 42,
+  "n_sections": 64,
+  "selected_variant": "B_paragraph_section",
+  "variants": {
+    "A_section_only": {
+      "accuracy": 0.703125,
+      "f1_macro": 0.6058201058201058,
+      "f1_weighted": 0.6276041666666666,
+      "n_correct": 45,
+      "cost_usd": 0.78539
+    },
+    "B_paragraph_section": {
+      "accuracy": 0.734375,
+      "f1_macro": 0.6532258064516129,
+      "f1_weighted": 0.6640625,
+      "n_correct": 47,
+      "cost_usd": 0.8894599999999999
+    },
+    "C_example_only": {
+      "accuracy": 0.703125,
+      "f1_macro": 0.6216931216931216,
+      "f1_weighted": 0.6432291666666666,
+      "n_correct": 45,
+      "cost_usd": 1.2368000000000001
+    },
+    "D_section_example": {
+      "accuracy": 0.703125,
+      "f1_macro": 0.6190476190476191,
+      "f1_weighted": 0.640625,
+      "n_correct": 45,
+      "cost_usd": 1.64586
+    },
+    "E_all_fields": {
+      "accuracy": 0.703125,
+      "f1_macro": 0.6190476190476191,
+      "f1_weighted": 0.640625,
+      "n_correct": 45,
+      "cost_usd": 1.70756
+    }
+  },
+  "total_cost_usd": 6.26507
+}
