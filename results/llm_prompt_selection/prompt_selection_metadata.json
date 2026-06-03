@@ -9,36 +9,36 @@
       "f1_macro": 0.6058201058201058,
       "f1_weighted": 0.6276041666666666,
       "n_correct": 45,
-      "cost_usd": 0.78539
+      "cost_usd": 0.57035
     },
     "B_paragraph_section": {
       "accuracy": 0.734375,
       "f1_macro": 0.6532258064516129,
       "f1_weighted": 0.6640625,
       "n_correct": 47,
-      "cost_usd": 0.8894599999999999
+      "cost_usd": 0.540276
     },
     "C_example_only": {
       "accuracy": 0.703125,
       "f1_macro": 0.6216931216931216,
       "f1_weighted": 0.6432291666666666,
       "n_correct": 45,
-      "cost_usd": 1.2368000000000001
+      "cost_usd": 0.6433920000000001
     },
     "D_section_example": {
       "accuracy": 0.703125,
       "f1_macro": 0.6190476190476191,
       "f1_weighted": 0.640625,
       "n_correct": 45,
-      "cost_usd": 1.64586
+      "cost_usd": 0.7887719999999999
     },
     "E_all_fields": {
       "accuracy": 0.703125,
       "f1_macro": 0.6190476190476191,
       "f1_weighted": 0.640625,
       "n_correct": 45,
-      "cost_usd": 1.70756
+      "cost_usd": 0.7234959999999999
     }
   },
-  "total_cost_usd": 6.26507
+  "total_cost_usd": 3.2662859999999996
 }
