@@ -11,7 +11,7 @@ contract sections against a 76-entry requirement catalogue:
    `paraphrase-multilingual-MiniLM-L12-v2` with mean pooling, computing cosine
    similarity against catalogue reference texts (Notebook 01).
 2. A proprietary large language model accessed through the OpenAI API,
-   prompted in a force-choice formulation with structured outputs (Notebook 02).
+   prompted in a force-choice formulation with structured outputs (Notebook 03).
 
 Both systems are evaluated with identical inputs, identical metrics, and
 identical statistical machinery (bootstrap confidence intervals with B=1000,
