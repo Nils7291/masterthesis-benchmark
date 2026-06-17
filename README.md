@@ -27,12 +27,14 @@ masterthesis-benchmark/
 │   └── README.md                          data dictionary
 ├── notebooks/
 │   ├── 01_encoder_benchmark.ipynb         encoder pipeline + metrics
-│   └── 02_llm_benchmark.ipynb             OpenAI pipeline + metrics
+│   ├── 02_llm_prompt_selection.ipynb        
+│   └── 03_llm_benchmark.ipynb             OpenAI pipeline + metrics
 ├── src/
 │   ├── __init__.py
 │   └── metrics.py                         bootstrap CIs, stability score
 ├── results/
 │   ├── encoder/                           predictions, metrics, plots
+│   ├── llm_prompt_selection/          
 │   └── llm/                               predictions, metrics, plots
 ├── .env.example                           template for OPENAI_API_KEY
 ├── .gitignore
